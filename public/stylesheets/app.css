@@ -10,6 +10,18 @@ i.icon {
     display: inline;
 }
 
+.ui.items {
+    background-color: beige;
+}
+
+form {
+    opacity: 0.7;
+}
+
+#segment {
+    background-color: antiquewhite;
+    padding: 3%;
+}
 
 
 body,
@@ -25,7 +37,7 @@ html {
     opacity: 0.5;
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease;
-    background-color: lightpink
+    background-color: bisque
 }
 
 #particles-js {
