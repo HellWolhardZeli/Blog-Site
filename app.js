@@ -141,6 +141,6 @@ app.delete("/blogs/:id", function (req, res) {
 
 
 
-app.listen(8080,'192.168.1.123', function () {
+app.listen(8080,'', function () {
     console.log("Server has started");
 });
