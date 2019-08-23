@@ -5,7 +5,7 @@ var express = require("express"),
     mongoose = require("mongoose"),
     methodOverride = require("method-override");
 
-mongoose.connect("mongodb://localhost/blog", {
+mongoose.connect("mongodb://heroku_52cx7whb:hgehokhrvqnqii1bs6jhg4jj1p@ds141815.mlab.com:41815/heroku_52cx7whb", {
     useNewUrlParser: true,
     useFindAndModify: true
 });
